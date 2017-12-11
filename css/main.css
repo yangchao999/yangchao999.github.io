@@ -39,8 +39,8 @@ body {
 #music{
     width: 60px;
     height: 60px;
-    right: 2%;
-    top:2%;
+    right: 1%;
+    top:1%;
     position: fixed;
     z-index: 10;
 
@@ -165,3 +165,30 @@ body {
         opacity:1;
     }
 }
+/*第二屏结束*/
+
+/*第三屏开始*/
+.swiper-slide.three{
+    position:relative;
+    background: url("../img/three.jpg");
+    background-size: 100% 100%;
+}
+.swiper-slide.three .three-1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.swiper-slide.three .three-2{
+    position: absolute;
+    width: 110%;
+    top: 8%;
+    left: 0;
+}
+.swiper-slide.three .three-3{
+    position: absolute;
+    top: 17%;
+    left: -6%;
+    width: 150%;
+}
+
+/*第三屏结束*/
