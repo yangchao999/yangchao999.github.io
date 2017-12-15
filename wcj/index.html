@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+
+
+</head>
+<body>
+  <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide one">
+        <div class="one-1 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0.5s">
+          <img src="img/one.jpg" alt="">
+        </div>
+      <div class="one-2">
+        <img src="img/jiezhi.png" alt=""  class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="2s">
+        <img src="img/womenjiehunla.png" alt="" class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s" swiper-animate-delay="1s">
+        <p class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="3s">2017.12.5</p>
+      </div>
+      </div>
+      <div class="swiper-slide two">
+        <div class="top ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.5s" swiper-animate-delay="0   s"><img src="img/two_top.jpg" alt=""></div>
+        <div class="center ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1.5s" swiper-animate-delay="3s"><img src="img/two_center.jpg" alt=""></div>
+        <div class="bottom ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.5s" swiper-animate-delay="1.5s"><img src="img/two_bottom.jpg" alt=""></div>
+      </div>
+      <div class="swiper-slide three">
+        <!--<img src="img/three.jpg" alt="" class="three-1">-->
+        <img src="img/1.png" alt="" class="three-2">
+        <img src="img/2.png" alt="" class="three-3">
+      </div>
+      <div class="swiper-slide">Slide 4</div>
+
+    </div>
+    <!-- Add Pagination -->
+    
+    <div class="swiper-pagination"></div>
+  </div>
+  <!-- 如果需要导航按钮 -->
+  <div class="swiper-button-next"></div>
+  <!--音乐开始-->
+  <div id="music">
+    <img  class="musicbg" src="img/music.gif" alt="">
+    <img class="musicimg" src="img/music_off.png" alt="">
+    <audio src="img/bgmusic.mp3" autoplay loop></audio>
+  </div>
+<!--音乐结束-->
+  <!-- Swiper JS -->
+  <script src="js/swiper.min.js"></script>
+  <script src="js/swiper.animate1.0.2.min.js"></script>
+  <script src="js/main.js"></script>
+
+
+</body>
+</html>
